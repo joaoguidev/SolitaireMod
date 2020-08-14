@@ -9,6 +9,8 @@ export default class Card {
     }
 
     draw(context) {
+
+        
         context.fillRect(
             this.position.x,
             this.position.y,
